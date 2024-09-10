@@ -64,7 +64,8 @@ def main():
     save_transcription(transcribed_text, transcription_file_path)
     print(f"Transcription saved to: {transcription_file_path}")
     try:
-        transcription_comparison = compare(transcription_file_path, "transcriptions")
+        transcriptions_comparison = compare(transcription_file_path, "transcriptions")
+        print(transcriptions_comparison)
     except:
         pass
 
@@ -74,7 +75,8 @@ def main():
     save_chunks(chunked_output, chunks_file_path)
     print(f"Chunks saved to: {chunks_file_path}")
     try:
-        chunk_comparison = compare(chunks_file_path, "chunks")
+        chunks_comparison = compare(chunks_file_path, "chunks")
+        print(chunks_comparison)
     except:
         pass
 
@@ -86,6 +88,7 @@ def main():
     print(f"Chunks saved to: {chunks_file_path}")
     try:
         filled_forms_comparison = compare(filled_form_file_path, "filled_forms")
+        print(filled_forms_comparison)
     except:
         pass
     breakpoint()
