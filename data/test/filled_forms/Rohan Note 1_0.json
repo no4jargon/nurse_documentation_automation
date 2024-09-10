@@ -1,0 +1,17 @@
+{
+    "Neurovascular Left Lower Extremity WDL": "Exceptions to WDL",
+    "Right Eye": "Impaired vision",
+    "Left Eye": "Impaired vision",
+    "Cardiac WDL": "Exceptions to WDL",
+    "Pulse Dorsalis Pedis Lt": "1+=Present with Doppler",
+    "Pulse Post Tibial Lt": "1+=Present with Doppler",
+    "Respiratory WDL": "Exceptions to WDL",
+    "All Breath Sounds": "Coarse crackles",
+    "Genitourinary WDL": "Exceptions to WDL",
+    "Urine Function": "Incontinence",
+    "Musculoskeletal WDL": "Exceptions to WDL",
+    "Right Upper Extremity": "Partial ROM, Passive ROM",
+    "Left Upper Extremity": "Partial ROM, Passive ROM",
+    "Right Lower Extremity": "Partial ROM, Passive ROM",
+    "Left Lower Extremity": "Partial ROM, Passive ROM"
+}

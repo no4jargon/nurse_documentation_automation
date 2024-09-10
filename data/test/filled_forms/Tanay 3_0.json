@@ -1,0 +1,20 @@
+{
+    "Right Eye": "Impaired vision",
+    "Left Eye": "Impaired vision",
+    "Teeth": "Missing teeth",
+    "Cardiac WDL": "Exceptions to WDL",
+    "Generalized Edema": "Non-pitting",
+    "Gastrointestinal WDL": "Exceptions to WDL",
+    "All Quadrants Bowel Sounds": "Present",
+    "Bowel Function": "Incontinent",
+    "Last Bowel Movement Date": "5/3/24",
+    "Genitourinary WDL": "Exceptions to WDL",
+    "Urine Function": "Urinary device/ostomy present (See LDA)",
+    "Musculoskeletal WDL": "Exceptions to WDL",
+    "Right Upper Extremity": "Partial ROM",
+    "Left Upper Extremity": "Partial ROM",
+    "Right Lower Extremity": "Partial ROM",
+    "Left Lower Extremity": "Partial ROM"
+}
+
+Neuro WDL, EENT WDL, except impaired vision bilaterally and missing teeth. Cardiac WDL, except generalized non-pitting edema 1+, respiratory WDL. GI is WDL, except bowel incontinence. Last BM 5-3-24, GI WDL, except fully present urinary device. Musculoskeletal is WDL, except all extremities with partial ROM, integumentary system WDL.

@@ -1,0 +1,66 @@
+{
+    "type": "json_schema",
+    "json_schema": {
+        "name": "Nurse Summary Parsed",
+        "type": "object",
+        "properties": {
+        "neurological": {
+            "$ref": "#/definitions/bodySystem"
+        },
+        "EENT": {
+            "$ref": "#/definitions/bodySystem"
+        },
+        "cardiovascular": {
+            "$ref": "#/definitions/bodySystem"
+        },
+        "respiratory": {
+            "$ref": "#/definitions/bodySystem"
+        },
+        "gastrointestinal": {
+            "$ref": "#/definitions/bodySystem"
+        },
+        "gastrourinary": {
+            "$ref": "#/definitions/bodySystem"
+        },
+        "musculoskeletal": {
+            "$ref": "#/definitions/bodySystem"
+        },
+        "integumentary": {
+            "$ref": "#/definitions/bodySystem"
+        },
+        "KUPIDS": {
+            "$ref": "#/definitions/bodySystem"
+        }
+        },
+        "required": [
+        "neurological",
+        "EENT",
+        "cardiovascular",
+        "respiratory",
+        "gastrointestinal",
+        "gastrourinary",
+        "musculoskeletal",
+        "integumentary",
+        "KUPIDS"
+        ],
+        "definitions": {
+        "bodySystem": {
+            "type": "object",
+            "properties": {
+            "is_referred_to_in_summary": {
+                "type": "boolean"
+            },
+            "exceptions_to_within_defined_limits": {
+                "type": ["string", "null"]
+            }
+            },
+            "required": [
+            "is_referred_to_in_summary",
+            "exceptions_to_within_defined_limits"
+            ],
+            "additionalProperties": false
+        }
+        },
+        "additionalProperties": false
+    }   
+}
